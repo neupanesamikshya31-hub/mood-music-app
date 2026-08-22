@@ -1,0 +1,40 @@
+.vinyl {
+  transition: 0.4s;
+}
+
+.spin {
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-range::-webkit-slider-thumb {
+  background: #7ea9f8;
+}
+
+.form-range::-moz-range-thumb {
+  background: #7ea9f8;
+}
+.spin {
+  animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-range::-webkit-slider-thumb {
+  background: #7ea9f8;
+}
